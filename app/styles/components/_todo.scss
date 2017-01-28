@@ -14,7 +14,7 @@
   }
 
   &:hover {
-    background-color: #f0f0f0;
+    background: #f0f0f0;
   }
 }
 
@@ -23,7 +23,7 @@
 }
 
 .todo-completed {
-  p, .todo__subtext {
+  p, .todo-subtext {
     color: $light-color;
     text-decoration: line-through;
   }
